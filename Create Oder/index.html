@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/order.css">
+</head>
+<body>
+    <div class="main__container" id="Main__container">
+        <div class="main">
+            <div class="main__footer--bottom">
+                <ul class="breadcrumb">
+                <li><a href="#">Shoping</a></li>
+                <li>Review & Payments</li>
+                </ul>
+            </div>
+
+            <div class="main__content">
+                <div class="check__order">
+                    <p class="title-check content--bold">Payment Method</p>
+                    <p class="link__check">Check/Money order</p>
+                    <div class="cb-infor">
+                        <input type="checkbox" name="cb-infor" id="cb-infor">
+                        <label class="cb-txt content--infor">My billing and shipping address are the same</label>
+                    </div>
+                    <div class="infor-txt">
+                        <p class="txt-infor content--infor">Vyacheslav Kulbitskii</p>
+                        <p class="txt-infor content--infor">Moskovski prospect 39/1, Apt. 147</p>
+                        <p class="txt-infor content--infor">Vitebsk, Vitebsk region 210038</p>
+                        <p class="txt-infor content--infor">Belarus</p>
+                        <p class="txt-infor content--infor phone">+375292169179 </p>
+                    </div>
+                    <div class="btn-infor">
+                        <button type="submit" class="btnOk">PLACE ORDER</button>
+                        <button type="submit" class="btnBack">BACK</button>
+                    </div>
+                    <p class="title-check content--bold">Apply Discount Code</p>
+                    <div class="code-discount">
+                        <input type="text" name="txt-code" id="txt-code" placeholder="Enter discount code" class="content--infor">
+                        <button type="submit" class="btn-code">APPLY</button>
+                    </div>
+                </div>
+
+                <button type="button" id="order__header">
+                    <div class="btn-view__Detail">
+                        <div class="total-order">
+                            <p class="total">Order Total: </p>
+                            <p class="price-total">120.00 EUR</p>
+                        </div>
+                        <div class="viewDetail">
+                            <p class="seeDetail">See Detail</p>
+                        </div>
+                    </div>
+                </button>
+
+                <div class="main-order">
+                    
+                    <div id="Content__order" class="content__order">
+                        <div class="Order__infor">
+                            <div class="table__infor">
+                                <div class="titel-order">
+                                    <p class="title-check content--bold">Order Summary</p>
+                                    <span id="close">&times;</span>
+                                </div>
+                                <div class="price content--nomal infor-flex">
+                                    <p class="name-order">Cart Subtotal</p>
+                                    <p class="total-price">$56.25</p>
+                                </div>
+                                <div class="shipping content--nomal infor-flex">
+                                    <p class="name-order">Cart Subtotal</p>
+                                    <p class="total-price">$56.25</p>
+                                </div>
+                                <div class="Fixed content--nomal infor-flex">
+                                    <p class="name-order">Flat Rate - Fixed</p>
+                                </div>
+                                <div class="total-order infor-flex">
+                                    <p class="total font-bold">Order Total</p>
+                                    <p class="price font-bold">120.00 EUR</p>
+                                </div>
+                                    <button type="button" class="collapsible">1 item cart</button>
+                                <div class="item__cart">
+                                    <div class="item__infor">
+                                        <div class="img-item-1">
+                                            <img src="assets/img/sungla1.jpg" alt="img" class="img-item">
+                                        </div>
+                                        <div class="infor-item">
+                                            <p class="title-item font-bold">Angels malu zip jeans slim black used</p>
+                                            <p>QTY: 1</p>
+                                            <div class="view-detail infor-add">
+                                                <p class="view-dt">View Detail</p>
+                                            </div>
+                                        </div>
+                                        <div class="price-item infor-add">
+                                            <p class="price">129.00 EUR</p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="item__infor">
+                                        <div class="img-item-1">
+                                            <img src="assets/img/sungla1.jpg" alt="img" class="img-item">
+                                        </div>
+                                        <div class="infor-item">
+                                            <p class="title-item font-bold">Angels malu zip jeans slim black used</p>
+                                            <p>QTY: 1</p>
+                                            <div class="view-detail">
+                                                <p class="view-dt infor-add">View Detail</p>
+                                            </div>
+                                        </div>
+                                        <div class="price-item infor-add">
+                                            <p class="price">129.00 EUR</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="check__order--infor">
+                            <div class="check__infor--item">
+                                <p class="title-check-item content--bold">Payment Method</p>
+                                <div class="infor-check">
+                                    <p class="txt-infor-item content--infor">Vyacheslav Kulbitskii</p>
+                                    <p class="txt-infor-item content--infor">Moskovski prospect 39/1, Apt. 147</p>
+                                    <p class="txt-infor-item content--infor">Vitebsk, Vitebsk region 210038</p>
+                                    <p class="txt-infor-item content--infor">Belarus</p>
+                                    <p class="txt-infor-item content--infor phone">+375292169179 </p>
+                                </div>
+                            </div>
+
+                            <div class="check__infor--item">
+                                <p class="title-check-item content--bold">Payment Method</p>
+                                <div class="infor-check">
+                                    <p class="txt-infor-item content--infor">Flat Rate - Fixed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="assets/js/item.js"></script>
+</html>
